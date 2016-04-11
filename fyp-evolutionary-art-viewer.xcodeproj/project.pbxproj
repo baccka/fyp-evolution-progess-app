@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAB8CFFB1CBC522A0008C2B6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8CFFA1CBC522A0008C2B6 /* AppDelegate.swift */; };
+		FAB8CFFD1CBC522A0008C2B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAB8CFFC1CBC522A0008C2B6 /* Assets.xcassets */; };
+		FAB8D00D1CBC53B30008C2B6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8D0091CBC53B30008C2B6 /* ViewController.swift */; };
+		FAB8D00E1CBC53B30008C2B6 /* ImageWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8D00A1CBC53B30008C2B6 /* ImageWriter.swift */; };
+		FAB8D00F1CBC53B30008C2B6 /* ImageGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8D00B1CBC53B30008C2B6 /* ImageGenerator.swift */; };
+		FAB8D0101CBC53B30008C2B6 /* GLImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB8D00C1CBC53B30008C2B6 /* GLImageView.m */; };
+		FAB8D0131CBC53C60008C2B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB8D0111CBC53C60008C2B6 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FAB8CFF71CBC522A0008C2B6 /* fyp-evolutionary-art-viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fyp-evolutionary-art-viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAB8CFFA1CBC522A0008C2B6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FAB8CFFC1CBC522A0008C2B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FAB8D0011CBC522A0008C2B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAB8D0071CBC534D0008C2B6 /* fyp-evolutionary-art-viewer-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fyp-evolutionary-art-viewer-Bridging-Header.h"; sourceTree = "<group>"; };
+		FAB8D0081CBC534D0008C2B6 /* GLImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLImageView.h; sourceTree = "<group>"; };
+		FAB8D0091CBC53B30008C2B6 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FAB8D00A1CBC53B30008C2B6 /* ImageWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageWriter.swift; sourceTree = "<group>"; };
+		FAB8D00B1CBC53B30008C2B6 /* ImageGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageGenerator.swift; sourceTree = "<group>"; };
+		FAB8D00C1CBC53B30008C2B6 /* GLImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLImageView.m; sourceTree = "<group>"; };
+		FAB8D0121CBC53C60008C2B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAB8CFF41CBC522A0008C2B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAB8CFEE1CBC522A0008C2B6 = {
+			isa = PBXGroup;
+			children = (
+				FAB8CFF91CBC522A0008C2B6 /* fyp-evolutionary-art-viewer */,
+				FAB8CFF81CBC522A0008C2B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAB8CFF81CBC522A0008C2B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAB8CFF71CBC522A0008C2B6 /* fyp-evolutionary-art-viewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAB8CFF91CBC522A0008C2B6 /* fyp-evolutionary-art-viewer */ = {
+			isa = PBXGroup;
+			children = (
+				FAB8D0111CBC53C60008C2B6 /* Main.storyboard */,
+				FAB8D0091CBC53B30008C2B6 /* ViewController.swift */,
+				FAB8D00A1CBC53B30008C2B6 /* ImageWriter.swift */,
+				FAB8D00B1CBC53B30008C2B6 /* ImageGenerator.swift */,
+				FAB8D00C1CBC53B30008C2B6 /* GLImageView.m */,
+				FAB8CFFA1CBC522A0008C2B6 /* AppDelegate.swift */,
+				FAB8CFFC1CBC522A0008C2B6 /* Assets.xcassets */,
+				FAB8D0011CBC522A0008C2B6 /* Info.plist */,
+				FAB8D0081CBC534D0008C2B6 /* GLImageView.h */,
+				FAB8D0071CBC534D0008C2B6 /* fyp-evolutionary-art-viewer-Bridging-Header.h */,
+			);
+			path = "fyp-evolutionary-art-viewer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAB8CFF61CBC522A0008C2B6 /* fyp-evolutionary-art-viewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAB8D0041CBC522A0008C2B6 /* Build configuration list for PBXNativeTarget "fyp-evolutionary-art-viewer" */;
+			buildPhases = (
+				FAB8CFF31CBC522A0008C2B6 /* Sources */,
+				FAB8CFF41CBC522A0008C2B6 /* Frameworks */,
+				FAB8CFF51CBC522A0008C2B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fyp-evolutionary-art-viewer";
+			productName = "fyp-evolutionary-art-viewer";
+			productReference = FAB8CFF71CBC522A0008C2B6 /* fyp-evolutionary-art-viewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAB8CFEF1CBC522A0008C2B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = baccka;
+				TargetAttributes = {
+					FAB8CFF61CBC522A0008C2B6 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = FAB8CFF21CBC522A0008C2B6 /* Build configuration list for PBXProject "fyp-evolutionary-art-viewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAB8CFEE1CBC522A0008C2B6;
+			productRefGroup = FAB8CFF81CBC522A0008C2B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAB8CFF61CBC522A0008C2B6 /* fyp-evolutionary-art-viewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAB8CFF51CBC522A0008C2B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB8D0131CBC53C60008C2B6 /* Main.storyboard in Resources */,
+				FAB8CFFD1CBC522A0008C2B6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAB8CFF31CBC522A0008C2B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAB8D00D1CBC53B30008C2B6 /* ViewController.swift in Sources */,
+				FAB8D0101CBC53B30008C2B6 /* GLImageView.m in Sources */,
+				FAB8D00F1CBC53B30008C2B6 /* ImageGenerator.swift in Sources */,
+				FAB8D00E1CBC53B30008C2B6 /* ImageWriter.swift in Sources */,
+				FAB8CFFB1CBC522A0008C2B6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FAB8D0111CBC53C60008C2B6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAB8D0121CBC53C60008C2B6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAB8D0021CBC522A0008C2B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAB8D0031CBC522A0008C2B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		FAB8D0051CBC522A0008C2B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "fyp-evolutionary-art-viewer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fyp.fyp-evolutionary-art-viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "fyp-evolutionary-art-viewer/fyp-evolutionary-art-viewer-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FAB8D0061CBC522A0008C2B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "fyp-evolutionary-art-viewer/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "fyp.fyp-evolutionary-art-viewer";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "fyp-evolutionary-art-viewer/fyp-evolutionary-art-viewer-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAB8CFF21CBC522A0008C2B6 /* Build configuration list for PBXProject "fyp-evolutionary-art-viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB8D0021CBC522A0008C2B6 /* Debug */,
+				FAB8D0031CBC522A0008C2B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAB8D0041CBC522A0008C2B6 /* Build configuration list for PBXNativeTarget "fyp-evolutionary-art-viewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAB8D0051CBC522A0008C2B6 /* Debug */,
+				FAB8D0061CBC522A0008C2B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAB8CFEF1CBC522A0008C2B6 /* Project object */;
+}
