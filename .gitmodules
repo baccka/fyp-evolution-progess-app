@@ -1,0 +1,3 @@
+[submodule "dependencies/fyp-evolutionary-art"]
+	path = dependencies/fyp-evolutionary-art
+	url = https://github.com/baccka/fyp-evolutionary-art
