@@ -14,7 +14,26 @@
 		FAB8D00F1CBC53B30008C2B6 /* ImageGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAB8D00B1CBC53B30008C2B6 /* ImageGenerator.swift */; };
 		FAB8D0101CBC53B30008C2B6 /* GLImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = FAB8D00C1CBC53B30008C2B6 /* GLImageView.m */; };
 		FAB8D0131CBC53C60008C2B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAB8D0111CBC53C60008C2B6 /* Main.storyboard */; };
+		FAC1342F1CC4C71E00C7026F /* libfyp-evolutionary-art.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC1342C1CC4C5C200C7026F /* libfyp-evolutionary-art.a */; };
+		FAC134311CC4C72900C7026F /* libc++.1.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC134301CC4C72900C7026F /* libc++.1.tbd */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAC1342B1CC4C5C200C7026F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAC134271CC4C5C200C7026F /* fyp-evolutionary-art.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FAB8CFA81CBC4FDC0008C2B6;
+			remoteInfo = "fyp-evolutionary-art";
+		};
+		FAC1342D1CC4C5D100C7026F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAC134271CC4C5C200C7026F /* fyp-evolutionary-art.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = FAB8CFA71CBC4FDC0008C2B6;
+			remoteInfo = "fyp-evolutionary-art";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		FAB8CFF71CBC522A0008C2B6 /* fyp-evolutionary-art-viewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fyp-evolutionary-art-viewer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -28,6 +47,8 @@
 		FAB8D00B1CBC53B30008C2B6 /* ImageGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageGenerator.swift; sourceTree = "<group>"; };
 		FAB8D00C1CBC53B30008C2B6 /* GLImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLImageView.m; sourceTree = "<group>"; };
 		FAB8D0121CBC53C60008C2B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAC134271CC4C5C200C7026F /* fyp-evolutionary-art.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "fyp-evolutionary-art.xcodeproj"; path = "dependencies/fyp-evolutionary-art/fyp-evolutionary-art.xcodeproj"; sourceTree = "<group>"; };
+		FAC134301CC4C72900C7026F /* libc++.1.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.1.tbd"; path = "usr/lib/libc++.1.tbd"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +56,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAC134311CC4C72900C7026F /* libc++.1.tbd in Frameworks */,
+				FAC1342F1CC4C71E00C7026F /* libfyp-evolutionary-art.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +67,8 @@
 		FAB8CFEE1CBC522A0008C2B6 = {
 			isa = PBXGroup;
 			children = (
+				FAC134301CC4C72900C7026F /* libc++.1.tbd */,
+				FAC134271CC4C5C200C7026F /* fyp-evolutionary-art.xcodeproj */,
 				FAB8CFF91CBC522A0008C2B6 /* fyp-evolutionary-art-viewer */,
 				FAB8CFF81CBC522A0008C2B6 /* Products */,
 			);
@@ -74,6 +99,14 @@
 			path = "fyp-evolutionary-art-viewer";
 			sourceTree = "<group>";
 		};
+		FAC134281CC4C5C200C7026F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAC1342C1CC4C5C200C7026F /* libfyp-evolutionary-art.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -88,6 +121,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				FAC1342E1CC4C5D100C7026F /* PBXTargetDependency */,
 			);
 			name = "fyp-evolutionary-art-viewer";
 			productName = "fyp-evolutionary-art-viewer";
@@ -120,12 +154,28 @@
 			mainGroup = FAB8CFEE1CBC522A0008C2B6;
 			productRefGroup = FAB8CFF81CBC522A0008C2B6 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = FAC134281CC4C5C200C7026F /* Products */;
+					ProjectRef = FAC134271CC4C5C200C7026F /* fyp-evolutionary-art.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				FAB8CFF61CBC522A0008C2B6 /* fyp-evolutionary-art-viewer */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		FAC1342C1CC4C5C200C7026F /* libfyp-evolutionary-art.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libfyp-evolutionary-art.a";
+			remoteRef = FAC1342B1CC4C5C200C7026F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		FAB8CFF51CBC522A0008C2B6 /* Resources */ = {
@@ -153,6 +203,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAC1342E1CC4C5D100C7026F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "fyp-evolutionary-art";
+			targetProxy = FAC1342D1CC4C5D100C7026F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		FAB8D0111CBC53C60008C2B6 /* Main.storyboard */ = {
@@ -203,6 +261,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/dependencies/fyp-evolutionary-art/fyp-evolutionary-art";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -242,6 +301,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/dependencies/fyp-evolutionary-art/fyp-evolutionary-art";
 				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
@@ -296,6 +356,7 @@
 				FAB8D0061CBC522A0008C2B6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
